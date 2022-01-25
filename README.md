@@ -3,7 +3,6 @@
 ---
 
 ```
-$ cd rails7
-$ docker compose build
 $ docker compose up -d
+$ docker-compose exec web bundle exec rails db:create
 ```
